@@ -25,7 +25,7 @@ export default {
 
     setTimeout(() => {
       this.$toast.clear()
-    }, 3000)
+    }, 2000)
   }
 }
 </script>
