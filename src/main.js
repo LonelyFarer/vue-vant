@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import './plugins/axios'
 import 'amfe-flexible'
-import { Toast, Swipe, SwipeItem, Lazyload, NavBar } from 'vant'
+import { Toast, Swipe, SwipeItem, Lazyload, NavBar, Tabbar, TabbarItem } from 'vant'
 import App from './App.vue'
 import router from './router'
 import store from './store'
 
 Vue.use(Toast).use(Lazyload).use(NavBar)
-    .use(Swipe).use(SwipeItem)
+    .use(Swipe).use(SwipeItem).use(Tabbar).use(TabbarItem)
 
 Vue.config.productionTip = false
 
