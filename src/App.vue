@@ -29,45 +29,44 @@
 <script>
 export default {
   name: 'index',
-  data() {
-      return {
-        title:'home',
-        active: 0,
-        tabbars: [
-            {
-                name: "home",
-                title: "首页",
-                icon:"home-o"
-            },
-            {
-                name: "index",
-                title: "消息",
-                icon:"comment-o"
-            },
-            {
-                name: "cart",
-                title: "购物车",
-                icon:"shopping-cart-o"
-            },
-            {
-                name: "about",
-                title: "我的",
-                icon:"user-o"
-            }
-        ]
-      }
-
+  data () {
+    return {
+      title: 'home',
+      active: 0,
+      tabbars: [
+        {
+          name: 'home',
+          title: '首页',
+          icon: 'home-o'
+        },
+        {
+          name: 'index',
+          title: '消息',
+          icon: 'comment-o'
+        },
+        {
+          name: 'cart',
+          title: '购物车',
+          icon: 'shopping-cart-o'
+        },
+        {
+          name: 'about',
+          title: '我的',
+          icon: 'user-o'
+        }
+      ]
+    }
   },
   components: {
-    
+
   },
   created () {
-    
+
   },
   methods: {
-    tab(val) {
-        this.title=val;
-        this.$router.push(val);
+    tab (val) {
+      this.title = val
+      this.$router.push(val)
     },
     onClickLeft () {
       this.$router.go(-1)

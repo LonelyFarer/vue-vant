@@ -17,12 +17,12 @@ export default new Router({
     {
       path: '/index',
       name: 'index',
-      component: Index,
+      component: Index
     },
     {
       path: '/cart',
       name: 'cart',
-      component: Cart,
+      component: Cart
     },
     {
       path: '/about',

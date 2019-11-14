@@ -7,20 +7,19 @@
 <script>
 export default {
   name: 'cart',
-  data() {
-      return {
-       
-      }
+  data () {
+    return {
 
+    }
   },
   components: {
-    
+
   },
   created () {
-    
+
   },
   methods: {
-   
+
   }
 }
 </script>

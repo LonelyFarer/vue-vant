@@ -1,6 +1,6 @@
 const autoprefixer = require('autoprefixer')
 const pxtorem = require('postcss-pxtorem')
-//用于将单位转化为rem
+// 用于将单位转化为rem
 module.exports = {
   css: {
     sourceMap: true,

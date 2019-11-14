@@ -7,20 +7,19 @@
 <script>
 export default {
   name: 'index',
-  data() {
-      return {
-       
-      }
+  data () {
+    return {
 
+    }
   },
   components: {
-    
+
   },
   created () {
-    
+
   },
   methods: {
-   
+
   }
 }
 </script>

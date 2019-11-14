@@ -7,7 +7,7 @@ import router from './router'
 import store from './store'
 
 Vue.use(Toast).use(Lazyload).use(NavBar)
-    .use(Swipe).use(SwipeItem).use(Tabbar).use(TabbarItem)
+  .use(Swipe).use(SwipeItem).use(Tabbar).use(TabbarItem)
 
 Vue.config.productionTip = false
 

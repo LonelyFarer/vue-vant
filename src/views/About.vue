@@ -1,7 +1,6 @@
 <template>
   <div class="about">
-    
-    <van-swipe :autoplay="3000" >
+    <van-swipe :autoplay="3000">
       <van-swipe-item v-for="(image, index) in images" :key="index">
         <img v-lazy="image" class="swipeImg" />
       </van-swipe-item>
@@ -19,9 +18,7 @@ export default {
       ]
     }
   },
-  methods: {
-    
-  }
+  methods: {}
 }
 </script>
 <style lang="less" scoped>
