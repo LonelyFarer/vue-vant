@@ -13,6 +13,10 @@ export default {
   data () {
     return {
       images: [
+        require('../assets/Lavender.jpg'),
+        require('../assets/starry-sky.jpg'),
+        require('../assets/starry-sky2.jpg'),
+        require('../assets/starry-sky3.jpg'),
         require('../assets/apple-1.jpg'),
         require('../assets/apple-2.jpg')
       ]
@@ -23,7 +27,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .swipeImg {
-  width: 320px;
+  width: 100%;
   height: 240px;
 }
 </style>

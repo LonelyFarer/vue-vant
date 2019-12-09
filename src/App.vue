@@ -13,6 +13,8 @@
       <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
+    <router-view class="contentHeight"/>
+
     <van-tabbar v-model="active" class="active_tab">
         <van-tabbar-item
         v-for="(item,index) in tabbars"
@@ -23,7 +25,7 @@
         <span>{{item.title}}</span>
         </van-tabbar-item>
     </van-tabbar>
-    <router-view style="padding: 50px 0"/>
+
   </div>
 </template>
 <script>
@@ -69,7 +71,9 @@ export default {
       this.$router.push(val)
     },
     onClickLeft () {
+      // history.back()
       this.$router.go(-1)
+      console.log(this.$router)
     },
     onClickRight () {
       this.$toast('按钮')
@@ -95,6 +99,9 @@ export default {
       color: #42b983;
     }
   }
+}
+.contentHeight{
+  padding: 50px 0;
 }
 .active_tab img {
   width: 26px;
