@@ -10,6 +10,11 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      name: '首页',
+      redirect: '/home'
+    },
+    {
       path: '/home',
       name: 'home',
       component: Home

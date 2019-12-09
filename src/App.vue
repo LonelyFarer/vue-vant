@@ -23,7 +23,7 @@
         <span>{{item.title}}</span>
         </van-tabbar-item>
     </van-tabbar>
-    <router-view/>
+    <router-view style="padding: 50px 0"/>
   </div>
 </template>
 <script>
@@ -100,7 +100,10 @@ export default {
   width: 26px;
   height: 26px;
 }
-
+.van-nav-bar{
+  position:fixed;
+  width:100%;
+}
 .van-tabbar-item--active {
   color: #e10f02;
 }

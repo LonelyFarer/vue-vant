@@ -29,3 +29,14 @@ export default {
   }
 }
 </script>
+<style lang="less" scoped>
+.home{
+  height:calc(100% - 500px)
+}
+// .home:after{
+//   content : '';
+//   height : 50px;
+//   display :block;
+// }
+
+</style>
